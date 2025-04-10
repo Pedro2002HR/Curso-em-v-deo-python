@@ -1,0 +1,8 @@
+medida = float(input('Uma distância em metros:'))
+print(f'A distânica de {medida} metros equivale a...')
+print(f'A medida de {medida} metros é igual a {medida*100:.0f}cm ')
+print(f'A medida de {medida} metros é igual a {medida*1000:.0f}mm')
+print(f'A medida de {medida} metros é igual a {medida*10}dam')
+print(f'A medida de {medida} metros é igual a {medida/10}dc')
+print(f'A medida de {medida} metros é igual a {medida/100}hm')
+print(f'A medida de {medida} metros é igual a {medida/1000}km')
