@@ -1,10 +1,5 @@
-# ESSE PROGRAMA ABAIXO TEM UM ERRO, SE NÃO TIVER UM NÚMERO 3 NA LISTA DE NÚMEROS DIGITADOS
-'''num = tuple(int(input('Digite um número:')) for c in range(0,4))
-print(f'O número nove aparece {num.count(9)} vez(es)')
-print(f'O número 3 apareceu pela primeira vez na posição {num.index(3)+1}')
-print('Valores pares digitados foram ',end='')
-print({n for n in num if n % 2 == 0},end='')'''
-#
+
+
 
 num = tuple(int(input('Digite um número:')) for c in range(0,4))
 print(f'O número nove aparece {num.count(9)} vez(es)')
